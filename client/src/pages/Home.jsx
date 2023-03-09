@@ -1,4 +1,3 @@
-import { BLOCKED_PAGES } from "next/dist/shared/lib/constants";
 import React, { useState, useEffect } from "react";
 import { Loader, Card, FormField } from "../components";
 
