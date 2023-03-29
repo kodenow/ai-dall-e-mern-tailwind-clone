@@ -3,13 +3,14 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 import { logo, KodeNowLogo } from "./assets";
 import { Home, CreatePost } from "./pages";
+import Credit from "./components/Credit";
 
 const App = () => (
   <BrowserRouter>
+    <Credit />
     <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
       <Link to="/">
         <div className="flex">
-          <img src={KodeNowLogo} alt="logo" className="w-28 object-contain" />
           <img src={logo} alt="logo" className="w-28 object-contain" />
         </div>
       </Link>
